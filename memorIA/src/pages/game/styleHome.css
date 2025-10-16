@@ -1,0 +1,26 @@
+body {
+            background-color: #ececdb;
+        }
+        .preserve-3d {
+            transform-style: preserve-3d;
+        }
+        .backface-hidden {
+            backface-visibility: hidden;
+        }
+        .rotate-y-180 {
+            transform: rotateY(180deg);
+        }
+        .memoria-teal {
+            background: linear-gradient(135deg, #0d7377, #14a085);
+        }
+        .memoria-orange {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+        }
+        .memoria-dark-teal {
+            background: linear-gradient(135deg, #0a5d61, #0d7377);
+        }
+        .selected-card {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(13, 115, 119, 0.6);
+        }
+        

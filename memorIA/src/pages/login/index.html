@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pagina de login</title>
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <div class="form-container criar-conta">
+        <form id="entrarForm">
+          <h1 id="formTitle">PROFESSOR</h1>
+          <span>Use o nome do seu usuário para o log-in </span>
+          <input type="text" placeholder="Usuário" id="nomeUsuario" />
+          <input type="password" placeholder="Senha" id="senhaUsuario" />
+          <button type="submit" id="submitBtn">Entrar</button>
+        </form>
+      </div>
+
+      <div class="form-container log-in">
+        <form id="loginForm">
+          <span>Clique aqui para ativar o modo escuro</span>
+          <div class="trilho" id="trilho">
+            <div class="indicador" id="indicador"></div>
+          </div>
+          <h1>ALUNO</h1>
+          <span>Use o nome do seu usuário para o log-in</span>
+          <input type="text" placeholder="Usuário" id="nomeUsuario" />
+          <input type="password" placeholder="Senha" id="senhaUsuario" />
+          <a href="#">Esqueceu sua senha?</a>
+          <button type="button"><a href='home.html'>Entrar</a></button>
+        </form>
+      </div>
+
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <img src="../../Assets/minha_logo.png" alt="logo" class="logoImg">
+            <button class="hidden" id="login">Sou aluno</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <img src="../../Assets/minha_logo.png" alt="logo" class="logoImg">
+            <button class="hidden" id="registrar">Sou professor</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
